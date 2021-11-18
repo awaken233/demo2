@@ -6,11 +6,12 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.demo2.dao.Demo1EntityRecordMapper;
 import com.example.demo2.entity.Demo1Entity;
 import lombok.extern.slf4j.Slf4j;
+import org.redisson.api.RLock;
+import org.redisson.api.RedissonClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author wlei3
@@ -19,11 +20,6 @@ import java.util.concurrent.locks.ReentrantLock;
 @Service
 public class Demo1EntityRecordService extends ServiceImpl<Demo1EntityRecordMapper, Demo1Entity> {
 
-    /**
-     * 重复插入锁
-     */
-    private static final Lock lock = new ReentrantLock();
-
     public Demo1Entity selectByName(String name) {
         return getOne(Wrappers.<Demo1Entity>lambdaQuery().eq(Demo1Entity::getName, name));
     }
@@ -31,7 +27,7 @@ public class Demo1EntityRecordService extends ServiceImpl<Demo1EntityRecordMappe
     public void insert(String name) {
         // 模拟耗时操作
         try {
-            TimeUnit.SECONDS.sleep(3);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             log.warn("Interrupted!", e);
             Thread.currentThread().interrupt();
@@ -42,7 +38,11 @@ public class Demo1EntityRecordService extends ServiceImpl<Demo1EntityRecordMappe
         save(entity);
     }
 
+    @Autowired
+    private RedissonClient redissonClient;
+
     public void selectAndInsert(String name) {
+        final RLock lock = redissonClient.getLock("anyLock");
         lock.lock();
         try {
             Demo1Entity demo1Entity = selectByName(name);

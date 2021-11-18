@@ -4,6 +4,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.util.StopWatch;
 
 import java.util.concurrent.*;
 
@@ -21,6 +22,8 @@ class ConcurrencyTest {
 
     @Test
     void concurrencyTest() throws InterruptedException {
+        StopWatch stopWatch = new StopWatch();
+        stopWatch.start();
         ThreadFactory namedThreadFactory = new ThreadFactoryBuilder().setNameFormat("demo-pool-%d")
             .build();
 
@@ -37,5 +40,7 @@ class ConcurrencyTest {
         //gracefully shutdown (优雅关闭)
         pool.shutdown();
         pool.awaitTermination(60, TimeUnit.SECONDS);
+        stopWatch.stop();
+        System.out.println(stopWatch.getTotalTimeSeconds());
     }
 }
