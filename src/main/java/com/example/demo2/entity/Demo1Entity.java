@@ -19,7 +19,7 @@ public class Demo1Entity {
     private Integer id;
 
     @TableField("name")
-    private Integer name;
+    private String name;
 
     @TableField("gmt_leave")
     private LocalDate gmtLeave;

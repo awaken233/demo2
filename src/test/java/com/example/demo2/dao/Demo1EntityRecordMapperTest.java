@@ -28,7 +28,7 @@ public class Demo1EntityRecordMapperTest {
     public void saveTest() {
         final Demo1Entity entity = new Demo1Entity();
         entity.setId(5);
-        entity.setName(2);
+        entity.setName("2");
         entity.setGmtLeave(LocalDate.MAX);
         demo1EntityRecordMapper.insert(entity);
     }
