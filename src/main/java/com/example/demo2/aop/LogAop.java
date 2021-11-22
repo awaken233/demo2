@@ -1,11 +1,11 @@
-package com.example.demo2.controller.aop;
+package com.example.demo2.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.lang.reflect.Method;
 
@@ -14,10 +14,12 @@ import java.lang.reflect.Method;
  */
 @Slf4j
 @Aspect
-@Component
 public class LogAop {
 
-    @Around("execution(* com.example.demo2.controller.*.*(..))")
+    @Value("${com.example.url}")
+    private String url;
+
+    @Around("execution(* com.example.demo2.controller..*.*(..))")
     public Object log(ProceedingJoinPoint joinPoint) throws Throwable {
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         Method method = methodSignature.getMethod();
