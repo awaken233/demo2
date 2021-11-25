@@ -1,56 +1,69 @@
 package com.example.demo2.controller;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
 class Solution {
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // 初始化入度表和邻接表
-        int[] indeg = new int[numCourses];
+        // 初始化邻接表和访问标记数组
         List<List<Integer>> adjacency = new ArrayList<>();
         for (int i = 0; i < numCourses; i++) {
             adjacency.add(new ArrayList<>());
         }
+        int[] flags = new int[numCourses];
 
-        // 计算入度表和邻接关系
-        for (int[] node : prerequisites) {
-            // 以 node[0] 节点为弧尾
-            adjacency.get(node[1]).add(node[0]);
-            indeg[node[0]]++;
+        // 初始化边
+        for (int[] cp : prerequisites) {
+            adjacency.get(cp[1]).add(cp[0]);
         }
 
-        // 初始化队列, 将入度为0的节点放入到队列中
-        Queue<Integer> queue = new LinkedList<>();
+        // 深度遍历所有节点
         for (int i = 0; i < numCourses; i++) {
-            if (indeg[i] == 0) {
-                queue.offer(i);
+            if (!dfs(adjacency, flags, i)) {
+                return false;
             }
         }
-
-        // 当队列不为空的时候
-        int visited = 0;
-        while (!queue.isEmpty()) {
-            visited++;
-            // 出队
-            Integer indeg0Node = queue.poll();
-            // 将所有邻接的节点的入度 - 1
-            for (Integer side : adjacency.get(indeg0Node)) {
-                if (--indeg[side] == 0) {
-                    queue.offer(side);
-                }
-            }
-        }
-
-        return visited == numCourses;
+        return true;
     }
 
+    /**
+     * @param adjacency
+     * @param flags
+     * @param i
+     * @return true 不存在环, false 存在环
+     */
+    private boolean dfs(List<List<Integer>> adjacency, int[] flags, int i) {
+        // 当前节点搜索中, 节点i被第二次访问, 存在环
+        if (flags[i] == 1) {
+            return false;
+        }
+        // 该节点已完成搜索, 不存在环, 无需继续遍历
+        if (flags[i] == -1) {
+            return true;
+        }
+
+        // 将其标记为: 搜索中
+        flags[i] = 1;
+
+        // 递归访问相邻的边
+        for (Integer j : adjacency.get(i)) {
+            // 存在环退出
+            if (!dfs(adjacency, flags, j)) {
+                return false;
+            }
+        }
+        // 当前节点已完成搜索
+        flags[i] = -1;
+        return true;
+    }
+
+
     public static void main(String[] args) {
-        int[][] prerequisites = {{0, 1}, {1, 2}, {2, 3}, {3, 1}};
+        int numCourses = 4;
+        int[][] prerequisites = {{0, 1}, {1, 2}, {2, 3}};
         Solution solution = new Solution();
-        boolean b = solution.canFinish(prerequisites.length + 1, prerequisites);
+        boolean b = solution.canFinish(numCourses, prerequisites);
         System.out.println(b);
     }
 }
