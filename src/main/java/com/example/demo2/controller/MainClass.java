@@ -1,78 +1,69 @@
 package com.example.demo2.controller;
 
-import cn.hutool.core.util.StrUtil;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableSet;
-
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
 
-    /**
-     * mock 的依赖关系图
-     */
-    public static ImmutableMap<String, ImmutableSet<String>> dependentBeanMap = ImmutableMap.of(
-        "Z", ImmutableSet.of("A", "B"),
-        "A", ImmutableSet.of("A1", "A2", "A3"),
-        "B", ImmutableSet.of("B1", "B2", "B3"),
-        "C", ImmutableSet.of("C1", "C2", "C3")
-    );
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        // 初始化邻接表和访问标记数组
+        List<List<Integer>> adjacency = new ArrayList<>();
+        for (int i = 0; i < numCourses; i++) {
+            adjacency.add(new ArrayList<>());
+        }
+        int[] flags = new int[numCourses];
 
-    public static void main(String[] args) {
-        // 当前 bean 的名称
-        String beanName = "Z";
-        // 当前 bean 所有的子 bean
-        Set<String> dependsOn = dependentBeanMap.get(beanName);
+        // 初始化边
+        for (int[] cp : prerequisites) {
+            adjacency.get(cp[1]).add(cp[0]);
+        }
 
-        // DFS
-        for (String dep : dependsOn) {
-            if (isDependent(beanName, dep)) {
-                String txt = StrUtil.format("{}和{}存在循环依赖", beanName, dep);
-                throw new IllegalStateException(txt);
+        // 深度遍历所有节点
+        for (int i = 0; i < numCourses; i++) {
+            if (!dfs(adjacency, flags, i)) {
+                return false;
             }
         }
+        return true;
     }
 
     /**
-     * @param beanName 当前bean
-     * @param dependentBeanName 依赖的bean
-     * @return true 存在依赖
+     * @param adjacency
+     * @param flags
+     * @param i
+     * @return true 不存在环, false 存在环
      */
-    public static boolean isDependent(String beanName, String dependentBeanName) {
-        return isDependent(beanName, dependentBeanName, null);
-    }
-
-    /**
-     * @param beanName 当前bean
-     * @param dependentBeanName 当前bean的子bean
-     * @param alreadySeen 已经遍历过的bean集合
-     * @return
-     */
-    public static boolean isDependent(String beanName, String dependentBeanName, Set<String> alreadySeen) {
-        if (alreadySeen != null && alreadySeen.contains(beanName)) {
+    private boolean dfs(List<List<Integer>> adjacency, int[] flags, int i) {
+        // 当前节点搜索中, 节点i被第二次访问, 存在环
+        if (flags[i] == 1) {
             return false;
         }
-
-        Set<String> dependentBeans = dependentBeanMap.get(beanName);
-        if (dependentBeans == null) {
-            return false;
-        }
-        // 当前bean的所有孩子 是否包含依赖的bean
-        if (dependentBeans.contains(dependentBeanName)) {
+        // 该节点已完成搜索, 不存在环, 无需继续遍历
+        if (flags[i] == -1) {
             return true;
         }
 
-        // 继续深度遍历传递依赖
-        for (String transitiveDependency : dependentBeans) {
-            if (alreadySeen == null) {
-                alreadySeen = new HashSet<>();
-            }
-            alreadySeen.add(beanName);
-            if (isDependent(transitiveDependency, dependentBeanName, alreadySeen)) {
-                return true;
+        // 将其标记为: 搜索中
+        flags[i] = 1;
+
+        // 递归访问相邻的边
+        for (Integer j : adjacency.get(i)) {
+            // 存在环退出
+            if (!dfs(adjacency, flags, j)) {
+                return false;
             }
         }
-        return false;
+        // 当前节点已完成搜索
+        flags[i] = -1;
+        return true;
+    }
+
+
+    public static void main(String[] args) {
+        int numCourses = 4;
+        int[][] prerequisites = {{0, 1}, {1, 2}, {2, 3}};
+        Solution solution = new Solution();
+        boolean b = solution.canFinish(numCourses, prerequisites);
+        System.out.println(b);
     }
 }

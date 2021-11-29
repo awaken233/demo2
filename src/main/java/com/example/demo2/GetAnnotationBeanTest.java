@@ -1,14 +1,13 @@
 package com.example.demo2;
 
 import com.example.demo2.entity.BeanB;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
  * @author wlei3
+ * @since 2021/11/29 16:40
  */
-@SpringBootApplication
-public class Demo2Application {
+public class GetAnnotationBeanTest {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
@@ -17,5 +16,4 @@ public class Demo2Application {
         BeanB bean = context.getBean(BeanB.class);
         System.out.println(bean);
     }
-
 }
