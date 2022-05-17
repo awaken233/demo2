@@ -1,26 +1,30 @@
 package com.example.demo2.config;
 
+import cn.hutool.core.util.StrUtil;
+
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 凸包算法
+ */
 class Solution {
     public int[][] outerTrees(int[][] points) {
-        Set<int[]> hull = new HashSet<>();
-
-        // 如果树的棵数小于 4 ，那么直接返回
+        // 如果树的棵数小于 4 ，那么直接返回. 也可以放在 set 中去重之后返回
         if (points.length < 4) {
-            for (int[] p : points) {
-                hull.add(p);
-            }
-            return hull.toArray(new int[hull.size()][]);
+            return points;
         }
+        Set<int[]> hull = new HashSet<>();
 
         // 找到最左边的点所在的index
         // 判断X轴的最小值
         int leftMost = 0;
         for (int i = 1; i < points.length; i++) {
-            if (points[i][0] < points[leftMost][0]) {
-                // 下一个点 < X轴最小的点 -> 下一个点就是最小的点
+            if (points[i][0] < points[leftMost][0]
+                || (points[i][0] == points[leftMost][0] && points[i][1] < points[leftMost][1])
+            ) {
+                // 下一个点 < 记录的X轴最小值点 -> 下一个点就是最小的点
+                // 需要判断相同X轴时, 取Y轴的小值的坐标点, 否则将会导致死循环.
                 leftMost = i;
             }
         }
@@ -85,8 +89,11 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[][] points = {{0, 1}, {1, 2}, {0, 2}, {0, 0}};
+        int[][] points = {{0, 5}, {10, 0}, {10, 10}, {0, 10}, {0, 0}};
         Solution solution = new Solution();
-        solution.outerTrees(points);
+        int[][] outs = solution.outerTrees(points);
+        for (int[] out : outs) {
+            System.out.println(StrUtil.format("[{},{}]", out[0], out[1]));
+        }
     }
 }
