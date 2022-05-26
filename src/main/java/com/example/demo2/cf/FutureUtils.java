@@ -1,10 +1,12 @@
 package com.example.demo2.cf;
 
+import com.google.common.collect.Sets;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.BinaryOperator;
 import java.util.function.Predicate;
@@ -172,5 +174,10 @@ public class FutureUtils {
     }
 
     public static void main(String[] args) {
+        Set<Integer> set1 = Sets.newHashSet(3205, 15857, 19220, 19423, 21707, 22251, 29397, 34608, 60316, 69829, 76506, 79681, 80667, 83794, 104596, 114965, 116786, 118522, 119773, 120408, 129337, 141055, 150944, 168690, 172321);
+        Set<Integer> set2 = Sets.newHashSet(19423, 60316, 76506, 83794, 120408, 150944);
+        set1.removeAll(set2);
+        System.out.println(set1);
+
     }
 }
