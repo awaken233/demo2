@@ -1,5 +1,8 @@
 package com.example.demo2.cf;
 
+import cn.hutool.core.util.ObjectUtil;
+
+import java.util.Collections;
 import java.util.concurrent.CompletionException;
 import java.util.concurrent.ExecutionException;
 
@@ -15,5 +18,13 @@ public class ExceptionUtils {
             }
         }
         return throwable;
+    }
+
+    public static void main(String[] args) {
+        if (ObjectUtil.isEmpty(Collections.singletonList(null))) {
+            System.out.println(1);
+        }
+        System.out.println(2);
+
     }
 }

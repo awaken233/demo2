@@ -16,6 +16,6 @@ public class LogErrorAction<R> extends AbstractLogAction<R> implements BiConsume
 
     @Override
     public void accept(R result, Throwable throwable) {
-//        logResult(result, throwable);
+        logResult(result, throwable);
     }
 }

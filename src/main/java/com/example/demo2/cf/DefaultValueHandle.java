@@ -45,7 +45,7 @@ public class DefaultValueHandle<R> extends AbstractLogAction<R> implements
 
     @Override
     public R apply(R result, Throwable throwable) {
-//        logResult(result, throwable);
+        logResult(result, throwable);
         if (throwable != null) {
             return defaultValue;
         }
