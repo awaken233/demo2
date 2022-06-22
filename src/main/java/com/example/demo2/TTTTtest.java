@@ -11,5 +11,7 @@ public class TTTTtest {
     public static void main(String[] args) {
         Object o = Collections.emptyMap().get("111");
         System.out.println(o);
+
+        // 2
     }
 }
