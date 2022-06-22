@@ -8,9 +8,11 @@ import org.springframework.util.ResourceUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author wlei3
@@ -38,7 +40,9 @@ public class TTTest {
     }
 
     public static void main(String[] args) throws IOException {
-        TTTest ttTest = new TTTest();
-        ttTest.test();
+        String eids = "118674, 191711, 191710, 191709, 191371, 191095, 191120, 191302, 191285, 191272, 191334, 191243, 191219, 191216, 191206, 191330, 191198, 191195, 191312, 191084, 206445, 192679, 191529, 191552, 191553, 191784, 191787, 192273, 192277, 192304, 192302, 205342, 191536, 191522, 192678, 191440, 192269, 192265, 192260, 192356, 205331, 192308, 191868, 191776";
+        List<Integer> collect = Arrays.stream(eids.split(",")).map(String::trim).map(Integer::valueOf)
+            .collect(Collectors.toList());
+        System.out.println(collect);
     }
 }
