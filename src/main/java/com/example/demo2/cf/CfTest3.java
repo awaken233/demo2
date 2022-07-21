@@ -11,15 +11,20 @@ public class CfTest3 {
         new ArrayBlockingQueue<>(1000), new ThreadPoolExecutor.CallerRunsPolicy());
 
     public static void main(String[] args) {
-        List<Integer> list = IntStream.range(0, 10).boxed().collect(Collectors.toList());
-        list.forEach(i -> {
-            CompletableFuture.runAsync(() -> {
+        List<Integer> list = IntStream.range(0, 100).boxed().collect(Collectors.toList());
+        CompletableFuture<Integer> cf = CompletableFuture.completedFuture(null);
+        list.forEach(i -> cf.thenRun(() -> {
                 doBussness(i);
-            }, EXECUTOR);
-        });
+            }));
     }
 
     public static void doBussness(Integer ii) {
+        // sleep(1000);
+        try {
+            TimeUnit.SECONDS.sleep(2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println(ii);
     }
 }

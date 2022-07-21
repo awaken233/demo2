@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * @author wlei3
@@ -29,15 +28,32 @@ public class TestController {
 
     @PostMapping("/test")
     public String test() {
-        TestController.getThreadPool().execute(() -> {
-            try {
-                TimeUnit.SECONDS.sleep(60);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        });
+        List<Integer> list = IntStream.range(0, 100).boxed().collect(Collectors.toList());
+
+        CompletableFuture.runAsync(() -> {
+            CompletableFuture<Integer> cf = CompletableFuture.completedFuture(null);
+            list.forEach(i -> cf.thenRun(() -> {
+                doBussness(i);
+            }));
+        }, privatizeThreadPoolUtils.getThreadPool());
+
         return "test";
     }
+
+
+    public static final Executor EXECUTOR = new ThreadPoolExecutor(10, 20, 60, TimeUnit.SECONDS,
+        new ArrayBlockingQueue<>(1000), new ThreadPoolExecutor.CallerRunsPolicy());
+
+    public static void doBussness(Integer ii) {
+        // sleep(1000);
+        try {
+            TimeUnit.SECONDS.sleep(2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(ii);
+    }
+
 
     //最大可用的CPU核数
     public static final int PROCESSORS = Runtime.getRuntime().availableProcessors() + 1;
