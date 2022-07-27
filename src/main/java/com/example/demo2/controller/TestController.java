@@ -1,5 +1,6 @@
 package com.example.demo2.controller;
 
+import com.example.demo2.cf.FutureUtils;
 import com.example.demo2.component.PrivatizeThreadPoolUtils;
 import com.example.demo2.config.EntryDemo;
 import com.google.common.collect.Lists;
@@ -27,31 +28,35 @@ public class TestController {
     private PrivatizeThreadPoolUtils privatizeThreadPoolUtils;
 
     @PostMapping("/test")
-    public String test() {
+    public ConcurrentHashMap<Integer, Integer> test() {
         List<Integer> list = IntStream.range(0, 100).boxed().collect(Collectors.toList());
 
-        CompletableFuture.runAsync(() -> {
-            CompletableFuture<Integer> cf = CompletableFuture.completedFuture(null);
-            list.forEach(i -> cf.thenRun(() -> {
-                doBussness(i);
-            }));
-        }, privatizeThreadPoolUtils.getThreadPool());
+        ConcurrentHashMap<Integer, Integer> result = new ConcurrentHashMap<>();
+        List<CompletableFuture<Integer>> cfs = list.stream().map(i -> {
+            return CompletableFuture.supplyAsync(() -> {
+                Integer re = doBussness(i);
+                result.put(i, re);
+                return re;
+            }, privatizeThreadPoolUtils.getThreadPool());
+        }).collect(Collectors.toList());
+        FutureUtils.sequence(cfs).join();
 
-        return "test";
+        return result;
     }
 
 
     public static final Executor EXECUTOR = new ThreadPoolExecutor(10, 20, 60, TimeUnit.SECONDS,
         new ArrayBlockingQueue<>(1000), new ThreadPoolExecutor.CallerRunsPolicy());
 
-    public static void doBussness(Integer ii) {
+    public static Integer doBussness(Integer ii) {
         // sleep(1000);
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.MICROSECONDS.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         System.out.println(ii);
+        return ii * 2;
     }
 
 
