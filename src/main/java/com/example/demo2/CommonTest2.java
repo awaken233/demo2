@@ -1,4 +1,4 @@
-package com.example.demo2.cf;
+package com.example.demo2;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * @author wlei3
  * @since 2022/5/31 20:55
  */
-public class TTTest {
+public class CommonTest2 {
 
     public void test() throws IOException {
         File jsonFile = ResourceUtils.getFile("classpath:111.json");
