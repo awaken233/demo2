@@ -7,6 +7,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
+import java.util.concurrent.Executor;
 
 /**
  * @author wlei3
@@ -16,7 +17,7 @@ import java.util.Map;
 public class ThreadConfiguration {
 
     @Bean(name = "formDimissionPool")
-    public ThreadPoolTaskExecutor formDimissionPool() {
+    public Executor formDimissionPool() {
         ThreadPoolTaskExecutor pool = new ThreadPoolTaskExecutor();
         // 线程池维护线程的最少数量
         pool.setCorePoolSize(10);
