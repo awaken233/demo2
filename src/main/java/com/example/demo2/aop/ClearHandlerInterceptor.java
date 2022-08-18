@@ -18,10 +18,7 @@ public class ClearHandlerInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response,
         Object handler) throws Exception {
         MDC.put("requestId", IdUtil.objectId());
-        WebUser webUser = new WebUser(1L);
-        WebUser.setCurrentUser(webUser);
-        request.setAttribute("webUser", webUser);
+        WebUser.setCurrentUser(new WebUser(1L));
         return HandlerInterceptor.super.preHandle(request, response, handler);
     }
-
 }

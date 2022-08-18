@@ -4,13 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.core.NamedThreadLocal;
 
+import java.io.Serializable;
+
 /**
  * @author wlei3
  * @since 2022/8/14 18:00
  */
 @Data
 @AllArgsConstructor
-public class WebUser {
+public class WebUser implements Serializable {
 
     private Long cid;
 

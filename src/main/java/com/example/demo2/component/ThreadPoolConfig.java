@@ -6,8 +6,6 @@ import org.slf4j.MDC;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
-import org.springframework.web.context.request.RequestAttributes;
-import org.springframework.web.context.request.RequestContextHolder;
 
 import java.util.Map;
 import java.util.concurrent.Executor;
@@ -37,15 +35,13 @@ public class ThreadPoolConfig {
         pool.setThreadNamePrefix("webUserPool");
         pool.setTaskDecorator(runnable -> {
             Map<String, String> contextMap = MDC.getCopyOfContextMap();
-            RequestAttributes attributes = RequestContextHolder.getRequestAttributes();
             WebUser webUser = WebUser.getCurrentUser();
             return () -> {
-                setThreadContext(contextMap, attributes, webUser);
+                setThreadContext(contextMap, webUser);
                 try {
                     runnable.run();
                 } finally {
                     MDC.clear();
-                    RequestContextHolder.resetRequestAttributes();
                     WebUser.resetWebUser();
                 }
             };
@@ -53,11 +49,11 @@ public class ThreadPoolConfig {
         return pool;
     }
 
-    private static void setThreadContext(Map<String, String> contextMap, RequestAttributes attributes,
+    private static void setThreadContext(Map<String, String> contextMap,
         WebUser webUser) {
-        MDC.setContextMap(contextMap);
-        RequestContextHolder.setRequestAttributes(attributes);
+//        WebUser clone = ObjectUtil.clone(webUser);
+//        WebUser.setCurrentUser(clone);
         WebUser.setCurrentUser(webUser);
+        MDC.setContextMap(contextMap);
     }
-
 }
