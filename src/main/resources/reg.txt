@@ -1,0 +1,2233 @@
+
+<html>
+
+<head>
+    <style>
+        p {
+            margin-top: 0pt;
+            margin-bottom: 1pt;
+        }
+
+        p.X1 {
+            text-align: justify;
+        }
+
+        span.X1 {
+            font-family: 'Times New Roman';
+            font-size: 10.0pt;
+        }
+
+        p.X2 {
+            margin-top: 17.0pt;
+            margin-bottom: 16.5pt;
+        }
+
+        span.X2 {
+            font-size: 22.0pt;
+            font-weight: bold;
+        }
+
+        table.X7 {}
+
+        p.X3 {
+            text-align: left;
+        }
+
+        span.X4 {
+            font-size: 9.0pt;
+        }
+
+        p.X5 {
+            text-align: left;
+        }
+
+        span.X5 {
+            font-size: 9.0pt;
+        }
+
+        p.X6 {
+            text-align: center;
+        }
+
+        span.X6 {
+            font-size: 9.0pt;
+        }
+
+        span.X9 {
+            font-size: 22.0pt;
+            font-weight: bold;
+        }
+
+        span.X10 {
+            font-size: 9.0pt;
+        }
+
+        span.X11 {
+            font-size: 9.0pt;
+        }
+
+        span.X12 {
+            font-family: '仿宋';
+        }
+    </style>
+</head>
+
+<body>
+    <p style="width:595.3pt;margin-bottom:72.0pt;margin-top:72.0pt;margin-left:90.0pt;margin-right:90.0pt;">
+    <p style="text-align:center;white-space:pre-wrap;"><span
+            style="font-family:'仿宋';font-size:22.0pt;font-weight:bold;white-space:pre-wrap;">员工基本情况表</span></p>
+    <p style="text-align:center;white-space:pre-wrap;"><br /></p>
+    <table class="X7" style="width:100%;border-collapse:collapse;">
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">姓 名</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.55pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">郦瑞卿</span></p>
+            </td>
+            <td class="X7"
+                style="width:45.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">性 别</span></p>
+            </td>
+            <td class="X7"
+                style="width:51.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">男</span></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">出生年月</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1992/10/25</span></p>
+            </td>
+            <td class="X7"
+                style="width:81.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;" />
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">出</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">生</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">地</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.55pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海</span></p>
+            </td>
+            <td class="X7"
+                style="width:45.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">民 族</span></p>
+            </td>
+            <td class="X7"
+                style="width:51.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">汉族</span></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">婚姻状况</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">已婚</span></p>
+            </td>
+            <td class="X7"
+                style="width:81.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                rowspan="1">
+                <p style="text-align:center;white-space:pre-wrap;"><img src="/Users/wangchun/Downloads/2.png"
+                        style="width:81.75pt;height:90.0pt;" /><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">政治面貌</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">共青团员</span></p>
+            </td>
+            <td class="X7"
+                style="width:114.2pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">参加党团组织年月</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2009-11</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">专业技术职务</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">会计师</span></p>
+            </td>
+            <td class="X7"
+                style="width:114.2pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">考评通过时间</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2020/9/7</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">参加工作时间</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2014/7/1</span></p>
+            </td>
+            <td class="X7"
+                style="width:114.2pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">进本单位工作时间</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2017/8/21</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3" rowspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">学历</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">学位</span></p>
+                <p style="text-align:center;white-space:pre-wrap;" />
+            </td>
+            <td class="X7"
+                style="width:69.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">全日制</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">教育</span></p>
+            </td>
+            <td class="X7"
+                style="width:96.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">大专（高职）</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">毕业院校</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">及专业</span></p>
+            </td>
+            <td class="X7"
+                style="width:160.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="4">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海应用技术学院大学</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工商管理</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:69.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">在职</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">教育</span></p>
+            </td>
+            <td class="X7"
+                style="width:96.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">本科</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">毕业院校</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">及专业</span></p>
+            </td>
+            <td class="X7"
+                style="width:160.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="4">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">华东政法大学</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">金融管理</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">居民身份证号</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">310115199210250918</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">户 口 地 址</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海市浦东新区梅园新村66号402室</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">联 系 地 址</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海市浦东新区梅园新村66号402室</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">固 定 电 话</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">58310050</span></p>
+            </td>
+            <td class="X7"
+                style="width:51.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">手机</span></p>
+            </td>
+            <td class="X7"
+                style="width:93.35pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="4">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">13636536248</span></p>
+            </td>
+            <td class="X7"
+                style="width:49.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">邮编</span></p>
+            </td>
+            <td class="X7"
+                style="width:81.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">200120</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">电子邮件地址</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">liruiqing@xjhsc.com.cn</span>
+                </p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:26.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                rowspan="21">
+                <p style="margin-left:5.65pt;margin-right:5.65pt;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">作</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> 简 历</span></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;white-space:pre-wrap;"><br /></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+            </td>
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">起 止 年 月</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工作单位</span></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">职 务</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2014-07-2017-08</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海徐家汇商城集团电子商务有限公司</span></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">财务出纳</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2017-08-9999-12</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海徐家汇商城（集团）有限公司</span></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">财务部科员</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:26.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                rowspan="7">
+                <p style="margin-left:5.65pt;margin-right:5.65pt;text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">家 庭</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> 主 要 </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">成</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">员 </span></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;text-align:center;white-space:pre-wrap;"><br /></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+            </td>
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">称谓</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">姓 名</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">出生年月</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">政治面貌</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工作或学习单位及职务</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">父亲</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">郦志敏</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1964年7月2日</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">中共党员</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">陆家嘴经济发展总公司</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">母亲</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">杨玉如</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1970年8月22日</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">群众</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">退休</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">配偶</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">庄 婧</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1993年4月13日</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">群众</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">明治乳业（苏州）有限公司上海分公司 人事总务</span>
+                </p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+    </table>
+    <p style="white-space:pre-wrap;"><br /></p>
+    <p><br /></p>
+    <p />
+    </p>
+</body>
+
+</html>
+<html>
+
+<head>
+    <style>
+        p {
+            margin-top: 0pt;
+            margin-bottom: 1pt;
+        }
+
+        p.X1 {
+            text-align: justify;
+        }
+
+        span.X1 {
+            font-family: 'Times New Roman';
+            font-size: 10.0pt;
+        }
+
+        p.X2 {
+            margin-top: 17.0pt;
+            margin-bottom: 16.5pt;
+        }
+
+        span.X2 {
+            font-size: 22.0pt;
+            font-weight: bold;
+        }
+
+        table.X7 {}
+
+        p.X3 {
+            text-align: left;
+        }
+
+        span.X4 {
+            font-size: 9.0pt;
+        }
+
+        p.X5 {
+            text-align: left;
+        }
+
+        span.X5 {
+            font-size: 9.0pt;
+        }
+
+        p.X6 {
+            text-align: center;
+        }
+
+        span.X6 {
+            font-size: 9.0pt;
+        }
+
+        span.X9 {
+            font-size: 22.0pt;
+            font-weight: bold;
+        }
+
+        span.X10 {
+            font-size: 9.0pt;
+        }
+
+        span.X11 {
+            font-size: 9.0pt;
+        }
+
+        span.X12 {
+            font-family: '仿宋';
+        }
+    </style>
+</head>
+
+<body>
+    <p style="width:595.3pt;margin-bottom:72.0pt;margin-top:72.0pt;margin-left:90.0pt;margin-right:90.0pt;">
+    <p style="text-align:center;white-space:pre-wrap;"><span
+            style="font-family:'仿宋';font-size:22.0pt;font-weight:bold;white-space:pre-wrap;">员工基本情况表</span></p>
+    <p style="text-align:center;white-space:pre-wrap;"><br /></p>
+    <table class="X7" style="width:100%;border-collapse:collapse;">
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">姓 名</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.55pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">郦瑞卿</span></p>
+            </td>
+            <td class="X7"
+                style="width:45.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">性 别</span></p>
+            </td>
+            <td class="X7"
+                style="width:51.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">男</span></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">出生年月</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1992/10/25</span></p>
+            </td>
+            <td class="X7"
+                style="width:81.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;" />
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">出</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">生</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">地</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.55pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海</span></p>
+            </td>
+            <td class="X7"
+                style="width:45.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">民 族</span></p>
+            </td>
+            <td class="X7"
+                style="width:51.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">汉族</span></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">婚姻状况</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">已婚</span></p>
+            </td>
+            <td class="X7"
+                style="width:81.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                rowspan="1">
+                <p style="text-align:center;white-space:pre-wrap;"><img src="/Users/wangchun/Downloads/2.png"
+                        style="width:81.75pt;height:90.0pt;" /><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">政治面貌</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">共青团员</span></p>
+            </td>
+            <td class="X7"
+                style="width:114.2pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">参加党团组织年月</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2009-11</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">专业技术职务</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">会计师</span></p>
+            </td>
+            <td class="X7"
+                style="width:114.2pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">考评通过时间</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2020/9/7</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">参加工作时间</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2014/7/1</span></p>
+            </td>
+            <td class="X7"
+                style="width:114.2pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">进本单位工作时间</span></p>
+            </td>
+            <td class="X7"
+                style="width:79.6pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2017/8/21</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3" rowspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">学历</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">学位</span></p>
+                <p style="text-align:center;white-space:pre-wrap;" />
+            </td>
+            <td class="X7"
+                style="width:69.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">全日制</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">教育</span></p>
+            </td>
+            <td class="X7"
+                style="width:96.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">大专（高职）</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">毕业院校</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">及专业</span></p>
+            </td>
+            <td class="X7"
+                style="width:160.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="4">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海应用技术学院大学</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工商管理</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:69.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">在职</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">教育</span></p>
+            </td>
+            <td class="X7"
+                style="width:96.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">本科</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:62.9pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">毕业院校</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">及专业</span></p>
+            </td>
+            <td class="X7"
+                style="width:160.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="4">
+                <p class="X1 X12" style="text-align:center;white-space:pre-wrap;"><span class="X1 X12"
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">华东政法大学</span></p>
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">金融管理</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">居民身份证号</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">310115199210250918</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">户 口 地 址</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海市浦东新区梅园新村66号402室</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">联 系 地 址</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海市浦东新区梅园新村66号402室</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">固 定 电 话</span></p>
+            </td>
+            <td class="X7"
+                style="width:113.7pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">58310050</span></p>
+            </td>
+            <td class="X7"
+                style="width:51.3pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">手机</span></p>
+            </td>
+            <td class="X7"
+                style="width:93.35pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="4">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">13636536248</span></p>
+            </td>
+            <td class="X7"
+                style="width:49.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">邮编</span></p>
+            </td>
+            <td class="X7"
+                style="width:81.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">200120</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:83.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">电子邮件地址</span></p>
+            </td>
+            <td class="X7"
+                style="width:388.75pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="15">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">liruiqing@xjhsc.com.cn</span>
+                </p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:26.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                rowspan="21">
+                <p style="margin-left:5.65pt;margin-right:5.65pt;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">作</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> 简 历</span></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;white-space:pre-wrap;"><br /></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+                <p style="white-space:pre-wrap;" />
+            </td>
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">起 止 年 月</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工作单位</span></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">职 务</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2014-07-2017-08</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海徐家汇商城集团电子商务有限公司</span></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">财务出纳</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">2017-08-9999-12</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">上海徐家汇商城（集团）有限公司</span></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">财务部科员</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:126.15pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">-</span></p>
+            </td>
+            <td class="X7"
+                style="width:189.85pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="11">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:130.4pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:26.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                rowspan="7">
+                <p style="margin-left:5.65pt;margin-right:5.65pt;text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">家 庭</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> 主 要 </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">成</span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;"> </span><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">员 </span></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;text-align:center;white-space:pre-wrap;"><br /></p>
+                <p style="margin-left:5.65pt;margin-right:5.65pt;text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+                <p style="text-align:center;white-space:pre-wrap;" />
+            </td>
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">称谓</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">姓 名</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">出生年月</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">政治面貌</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">工作或学习单位及职务</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">父亲</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">郦志敏</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1964年7月2日</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">中共党员</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">陆家嘴经济发展总公司</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">母亲</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">杨玉如</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1970年8月22日</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">群众</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">退休</span></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">配偶</span></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">庄 婧</span></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">1993年4月13日</span></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">群众</span></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;">明治乳业（苏州）有限公司上海分公司 人事总务</span>
+                </p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+        <tr class="X7">
+            <td class="X7"
+                style="width:57.65pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="2">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:68.5pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:74.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="5">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:61.25pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="3">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+            <td class="X7"
+                style="width:185.0pt;border-top:1.5px solid #000000;border-bottom:1.5px solid #000000;border-left:1.5px solid #000000;border-right:1.5px solid #000000;"
+                colspan="6">
+                <p style="text-align:center;white-space:pre-wrap;"><span
+                        style="font-family:'仿宋';font-size:12.0pt;white-space:pre-wrap;" /></p>
+            </td>
+        </tr>
+    </table>
+    <p style="white-space:pre-wrap;"><br /></p>
+    <p><br /></p>
+    <p />
+    </p>
+</body>
+
+</html>

@@ -21,4 +21,11 @@ public class ClearHandlerInterceptor implements HandlerInterceptor {
         WebUser.setCurrentUser(new WebUser(1L));
         return HandlerInterceptor.super.preHandle(request, response, handler);
     }
+
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response,
+        Object handler, Exception ex) throws Exception {
+        WebUser.resetWebUser();
+        HandlerInterceptor.super.afterCompletion(request, response, handler, ex);
+    }
 }

@@ -2,12 +2,16 @@ package com.example.demo2.controller;
 
 import com.example.demo2.dto.WebUser;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.io.FileUtils;
+import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.concurrent.TimeUnit;
@@ -27,6 +31,7 @@ public class WebUserController {
     public String test1() {
         log.info("test111111 {} {}", System.identityHashCode(WebUser.getCurrentUser()), WebUser.getCurrentUser());
         CompletableFuture.runAsync(WebUserController::runTest, executor);
+        WebUser.resetWebUser();
         return "test1";
     }
 
@@ -77,4 +82,12 @@ public class WebUserController {
         return "test4";
     }
 
+    public static void main(String[] args) throws IOException {
+        // 读取  src/java/resource 中的 reg.txt 到 String 中
+        File jsonFile = ResourceUtils.getFile("classpath:reg.txt");
+        String content = FileUtils.readFileToString(jsonFile);
+
+        String regex = "<p\\s?[^<>]*>(<\\s?img\\b[^<>]*\\/>[\\s\\S]*)<\\b?\\/p\\s?>";
+        System.out.println(content.replaceAll(regex, "$1"));
+    }
 }
