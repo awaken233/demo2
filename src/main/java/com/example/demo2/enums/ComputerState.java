@@ -15,6 +15,7 @@ public enum ComputerState implements BaseCodeEnum {
 
     @Override
     public int getCode() {
+        // 1 2 3
         return this.code;
     }
 }
