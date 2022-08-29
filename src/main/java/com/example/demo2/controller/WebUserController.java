@@ -1,5 +1,6 @@
 package com.example.demo2.controller;
 
+import com.example.demo2.cf.DefaultValueHandle;
 import com.example.demo2.dto.WebUser;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
@@ -30,19 +31,28 @@ public class WebUserController {
     @PostMapping("/test1")
     public String test1() {
         log.info("test111111 {} {}", System.identityHashCode(WebUser.getCurrentUser()), WebUser.getCurrentUser());
-        CompletableFuture.runAsync(WebUserController::runTest, executor);
-        WebUser.resetWebUser();
+        CompletableFuture.runAsync(WebUserController::runTest, executor)
+            .handle(new DefaultValueHandle<>("test1", Void.class, 1));
         return "test1";
     }
 
 
     private static void runTest() {
         try {
-            TimeUnit.SECONDS.sleep(10);
+            TimeUnit.SECONDS.sleep(1);
             log.info("webUser.getcurrentUser(): {} {}",
                 System.identityHashCode(WebUser.getCurrentUser()), WebUser.getCurrentUser());
         } catch (Exception e) {
             log.error("runTest error", e);
+        }
+        runTest2();
+    }
+
+    private static void runTest2() {
+        try {
+            int a = 1 / 0;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 
