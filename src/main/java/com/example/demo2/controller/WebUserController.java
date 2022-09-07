@@ -2,8 +2,10 @@ package com.example.demo2.controller;
 
 import com.example.demo2.cf.DefaultValueHandle;
 import com.example.demo2.dto.WebUser;
+import com.example.demo2.feign.DemoFeignClient;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -27,6 +29,9 @@ public class WebUserController {
 
     @Resource(name = "webUserPool")
     private Executor executor;
+
+    @Autowired
+    private DemoFeignClient demoFeignClient;
 
     @PostMapping("/test1")
     public String test1() {
@@ -100,4 +105,10 @@ public class WebUserController {
         String regex = "<p\\s?[^<>]*>(<\\s?img\\b[^<>]*\\/>[\\s\\S]*)<\\b?\\/p\\s?>";
         System.out.println(content.replaceAll(regex, "$1"));
     }
+
+    @PostMapping("/test5")
+    public String test5() {
+        return demoFeignClient.index();
+    }
+
 }
