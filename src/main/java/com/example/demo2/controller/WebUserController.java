@@ -15,6 +15,8 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.concurrent.TimeUnit;
@@ -107,8 +109,8 @@ public class WebUserController {
     }
 
     @PostMapping("/test5")
-    public String test5() {
-        return demoFeignClient.index();
+    public Map<String, Object> test5() {
+        return demoFeignClient.cids(new HashMap<>());
     }
 
 }
