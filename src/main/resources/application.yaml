@@ -15,3 +15,8 @@ feign:
       # 全局级别配置
       default:
         logger-level: BASIC
+  # Feign Apache HttpClient 配置项，对应 FeignHttpClientProperties 配置属性类
+  httpclient:
+    enabled: true # 是否开启。默认为 true
+    max-connections: 200 # 最大连接数。默认为 200
+    max-connections-per-route: 50 # 每个路由的最大连接数。默认为 50。router = host + port
