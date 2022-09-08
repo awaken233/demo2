@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Map;
 
-@FeignClient(name = "baidu", url = "https://yuhrec-1.woqu365.com/")
+@FeignClient(name = "baidu", url = "https://yuhrec-1.woqu365.com/",
+    configuration = DemoProviderFeignClientConfiguration.class)
 public interface DemoFeignClient {
- 
+
     @GetMapping("/pub/login.html")
     String index();
 
