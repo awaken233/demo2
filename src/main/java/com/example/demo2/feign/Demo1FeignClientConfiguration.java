@@ -4,10 +4,11 @@ import com.example.demo2.config.CustomProperties;
 import feign.RequestInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
-public class DemoProviderFeignClientConfiguration {
+/**
+ * https://cloud.spring.io/spring-cloud-openfeign/reference/html/#spring-cloud-feign
+ */
+public class Demo1FeignClientConfiguration {
 
     @Autowired
     private CustomProperties customProperties;

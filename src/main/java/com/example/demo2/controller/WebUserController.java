@@ -3,6 +3,7 @@ package com.example.demo2.controller;
 import com.example.demo2.cf.DefaultValueHandle;
 import com.example.demo2.dto.WebUser;
 import com.example.demo2.feign.DemoFeignClient;
+import com.example.demo2.feign.DemoFeignClient2;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,10 @@ public class WebUserController {
 
     @Autowired
     private DemoFeignClient demoFeignClient;
+
+    @Autowired
+    private DemoFeignClient2 demoFeignClient2;
+
 
     @PostMapping("/test1")
     public String test1() {
@@ -110,7 +115,7 @@ public class WebUserController {
 
     @PostMapping("/test5")
     public Map<String, Object> test5() {
-        return demoFeignClient.cids(new HashMap<>());
+        return demoFeignClient2.cids(new HashMap<>());
     }
 
 }
