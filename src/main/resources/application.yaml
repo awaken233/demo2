@@ -1,11 +1,6 @@
 spring:
   application:
     name: demo-consumer # Spring 应用名
-  cloud:
-    nacos:
-      # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类
-      discovery:
-        server-addr: 127.0.0.1:8848 # Nacos 服务器地址
 
 feign:
   # Feign 客户端配置，对应 FeignClientProperties 配置属性类
@@ -24,4 +19,4 @@ feign:
 
 
 custom:
-  cookie: _u2token_=52da30e4c084407e917f234680b336fc; _u2comtype_=0; _u2cid_=60000004; loginType=WEB; _tzone_=UTC+08:00; _lcode_=zh_CN; _etime_=1662559689411; _u2uid_=1000818622; _nwcf_=mehTVWVqs/eTNrKDC4KTpLTQVF/0apK/9TdC5ZFgLKgOnCtVbygD8TOjRdqD2aNvAiYP8qOIXrE2IdIBSbA4cACPPDC3WRneUl6OyQ+lr2zppw6qRJH12H4GWsAV7UFEd3FmHauM+jBqy7EJVMeRKwWsGTcK6TZHwvC3rcu8W/HYgqTUpi3i2H9+rZp4lMQjf4/wu+7dJfznw45CUqfaEQ==; _nwcfl_=slVV74A5aYUMAFcR/gP/XwpGdLUl/T/L; _u2eid_=414573; _grayver_=never; _grayver_=never;
+  cookie: _u2token_=5360d75caf174dc285e261261efbba2b; _u2comtype_=0; _u2cid_=60000004; loginType=WEB; _tzone_=UTC+08:00; _lcode_=zh_CN; _etime_=1662559689411; _u2uid_=1000818622; _nwcf_=mehTVWVqs/eTNrKDC4KTpLTQVF/0apK/9TdC5ZFgLKgOnCtVbygD8TOjRdqD2aNvAiYP8qOIXrE2IdIBSbA4cACPPDC3WRneUl6OyQ+lr2zppw6qRJH12H4GWsAV7UFEd3FmHauM+jBqy7EJVMeRKwWsGTcK6TZHwvC3rcu8W/HYgqTUpi3i2H9+rZp4lMQjf4/wu+7dJfznw45CUqfaEQ==; _nwcfl_=slVV74A5aYV/btA94U9w0gpGdLUl/T/L; _u2eid_=414573; _grayver_=never; _grayver_=never;
