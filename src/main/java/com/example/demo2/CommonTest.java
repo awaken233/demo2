@@ -1,9 +1,13 @@
 package com.example.demo2;
 
-import com.google.common.collect.Sets;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.HashSet;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author wlei3
@@ -13,11 +17,16 @@ import java.util.HashSet;
 public class CommonTest {
 
     public static void main(String[] args) {
-        HashSet<String> positionBids = new HashSet<>();
-        positionBids.add("1");
-        positionBids.add("2");
-        positionBids.retainAll(Sets.newHashSet("2"));
-        System.out.println(positionBids);
+        Map<String, Integer> map1 = Maps.newHashMap();
+        map1.put("a", 1);
+        Map<String, Integer> map2 = Maps.newHashMap();
+        map2.put("b", null);
 
+        List<Map<String, Integer>> list = Lists.newArrayList(map1, map2);
+        // flatMap
+        Map<String, Integer> map = list.stream().map(Map::entrySet).flatMap(Collection::stream)
+            .filter(entry -> entry.getValue() != null)
+            .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (v1, v2) -> v2));
+        System.out.println(map);
     }
 }
