@@ -1,5 +1,6 @@
 package com.example.demo2.controller;
 
+import com.example.demo2.cf.CfTest4;
 import com.example.demo2.cf.DefaultValueHandle;
 import com.example.demo2.dto.WebUser;
 import com.example.demo2.feign.DemoFeignClient;
@@ -17,10 +18,11 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Executor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * @author wlei3
@@ -38,6 +40,10 @@ public class WebUserController {
 
     @Autowired
     private DemoFeignClient2 demoFeignClient2;
+
+    public static final ExecutorService EXECUTOR = new ThreadPoolExecutor(20, 20, 60,
+        TimeUnit.SECONDS,
+        new ArrayBlockingQueue<>(20), new ThreadPoolExecutor.CallerRunsPolicy());
 
 
     @PostMapping("/test1")
@@ -115,7 +121,18 @@ public class WebUserController {
 
     @PostMapping("/test5")
     public Map<String, Object> test5() {
-        return demoFeignClient2.cids(new HashMap<>());
+        // 1-10 的 ArrayList
+        List<Integer> list = IntStream.rangeClosed(1, 10).boxed().collect(Collectors.toList());
+
+        Map<String, Object> fastFail = null;
+        try {
+            fastFail = CfTest4.getFastFail(list, () -> {
+                return demoFeignClient2.cids(new HashMap<>());
+            });
+        } catch (ExecutionException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        return fastFail;
     }
 
 }
