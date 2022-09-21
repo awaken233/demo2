@@ -9,13 +9,13 @@ import java.util.stream.IntStream;
 public class CfTest4 {
     // 中断的次数
     private static int INTERRUPT_TIMES = 0;
-    public static final ExecutorService EXECUTOR = new ThreadPoolExecutor(20, 20, 60,
+    public static final ExecutorService EXECUTOR = new ThreadPoolExecutor(30, 30, 60,
         TimeUnit.SECONDS,
-        new ArrayBlockingQueue<>(20), new ThreadPoolExecutor.CallerRunsPolicy());
+        new ArrayBlockingQueue<>(10), new ThreadPoolExecutor.CallerRunsPolicy());
 
     public static void main(String[] args) throws Exception {
         // 循环两次 extracted()
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             extracted();
             INTERRUPT_TIMES = 0;
         }
