@@ -1,22 +1,2 @@
-spring:
-  application:
-    name: demo-consumer # Spring 应用名
-
-feign:
-  # Feign 客户端配置，对应 FeignClientProperties 配置属性类
-  client:
-    # config 配置项是 Map 类型。key 为 Feign 客户端的名字，value 为 FeignClientConfiguration 对象
-    config:
-      # 全局级别配置
-      default:
-        logger-level: full # 日志级别
-  # Feign Apache HttpClient 配置项，对应 FeignHttpClientProperties 配置属性类
-  httpclient:
-    enabled: true # 是否开启。默认为 true
-    max-connections: 200 # 最大连接数。默认为 200
-    max-connections-per-route: 50 # 每个路由的最大连接数。默认为 50。router = host + port
-
-
-
 custom:
   cookie: _bl_uid=29l27239fa9sqm313ee6ph7te6sF; isShowModify=false; href=https://yuhrec-1.woqu365.com/single/pub/index.html/?defaultCompany=60000231; loginType=WEB; _lcode_=zh_CN; _tzone_=UTC+08:00; _grayver_=never; aone_token=3b41bdbc994645a2a13403036d39640b; _u2cid_=60000004; _u2uid_=1000818622; _u2token_=84d770a2e8aa452d831f5c81042ffcfe; _u2eid_=414573; _u2comtype_=0; JSESSIONID=A91034281BEEF07841AFE83C32372757; _nwcf_=DpwrVW8oA/Ezo0Xag9mjbwImD/KjiF6xNiHSAUmwOHB+zAja4Fk2OrO1UdtHov7cw92gaq7+KAxS9t76W3oxf3G2fokziI4tgusIAG6nQ8txQk65voVMkrUI5i9z+ncvtcQql3925mxGtgmKKVSSWftfn3C8JvfbX3Lm7huxB+a/Ulz2HR1gvOj9oSgp0L2WoOe6tpiUeA9ZVoTi833cMg==; _nwcfl_=4gTT9iNNlsVTf5xDTHluLApGdLUl/T/L; _etime_=1663777622466
