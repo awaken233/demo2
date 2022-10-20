@@ -1,6 +1,5 @@
-package com.example.demo2.feign;
+package com.example.demo2.config;
 
-import com.example.demo2.config.CustomProperties;
 import feign.RequestInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

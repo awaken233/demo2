@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.Collections;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 
 /**
  * @author wlei3
@@ -38,12 +40,20 @@ public class TestController {
     @PostMapping("/test1")
     @SneakyThrows
     public Map<String, Object> test1() {
+
+        CompletableFuture.runAsync(this::findPosition, executor);
+        return Collections.emptyMap();
+    }
+
+    @SneakyThrows
+    private Map findPosition() {
         String json = "{\n"
             + "    \"dids\": [\n"
             + "        1\n"
             + "    ]\n"
             + "}";
         Map param = objectMapper.readValue(json, Map.class);
-        return hrQueryCenter.findPositions(param);
+        Map resp = hrQueryCenter.findPositions(param);
+        return resp;
     }
 }
