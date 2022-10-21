@@ -42,7 +42,7 @@ public class TestController {
 //                Map<String, Object> info = hrQueryCenter.info();
 //            }, executor);
 //        }
-        log.info("cookie: {}", customProperties.getCookie());
+        Map<String, Object> info = hrQueryCenter.info();
         return null;
     }
 

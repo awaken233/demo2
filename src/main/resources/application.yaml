@@ -3,16 +3,20 @@ spring:
     name: demo2
 
 custom:
-  cookie: _u2token_=e383731efb524352ba36708aad6c09d2; _u2eid_=414573; _u2comtype_=0; _u2uid_=1000818622; _nwcf_=gM6HTFS8JXWepesNpXb6b4oZqL2oRwJTSqWJHTxN2fqQV6ZwCgbM0iuSik7zNg6DBawZNwrpNkeq1k68mtQ6wKQ4ys9z0l+r7NYyi0u0a65zGXpzWlSKtEcNsps9fYms9ESgcq0Iv7kncX50jh18taurzyaenRqgAKfIsLjwIACepesNpXb6b4oZqL2oRwJT7OxnwurCpPc=; _grayver_=never; _tzone_=UTC+08:00; _nwcfl_=rHchBZ+lVpTdIF8Zzhr1jgpGdLUl/T/L; _etime_=1666343469308; _u2cid_=60000004; _lcode_=zh_CN; loginType=WEB; _grayver_=never;
+  cookie: 2
 
 feign:
   client:
     config:
       # 全局配置
       default:
-        loggerLevel: full # 日志级别
+        logger-level: FULL # 日志级别
   # Feign Apache HttpClient 配置项，对应 FeignHttpClientProperties 配置属性类
   httpclient:
     enabled: true # 是否开启。默认为 true
     max-connections: 200 # 最大连接数。默认为 200
     max-connections-per-route: 50 # 每个路由的最大连接数。默认为 50。router = host + port
+
+logging:
+  level:
+    com.example.demo2.feign.HrQueryCenter: debug
