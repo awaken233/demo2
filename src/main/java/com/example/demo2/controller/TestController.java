@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 
 /**
  * @author wlei3
@@ -49,17 +51,17 @@ public class TestController {
     @PostMapping("/test1")
     @SneakyThrows
     public Map<String, Object> test1() {
-//        for (int i = 0; i < 3; i++) {
-//            CompletableFuture.runAsync(this::findPosition, executor);
-//        }
-        return findPosition();
-//        return Collections.emptyMap();
+        for (int i = 0; i < 10; i++) {
+            CompletableFuture.runAsync(this::findPosition, executor);
+        }
+//        return findPosition();
+        return Collections.emptyMap();
     }
 
     @SneakyThrows
     private Map findPosition() {
         Map<String, Object> param = new HashMap<>();
-        param.put("dids", Lists.newArrayList(1));
+        param.put("dids", Lists.newArrayList(2944,42292,61178));
         Map resp = hrQueryCenter.findPositions(param);
         if ((Integer) resp.get("code") != 0) {
             log.info("find position error {}", resp);

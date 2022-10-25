@@ -3,14 +3,14 @@ spring:
     name: demo2
 
 custom:
-  cookie: 2
+  cookie: _u2token_=be5c704fe9f44bb6899c6a70d876b9c4; _u2eid_=4; _u2comtype_=0; _u2uid_=1000433633; _nwcf_=gM6HTFS8JXUNVumkN70PdWRx4uXHBpEm6uS1nbyS1RCQV6ZwCgbM0kTepc36FHKVXcr+Ix29rGhb8zWsqi2u25Dt577WBe1QiotbEscGx9c4yz6XV37PODDK/8KDW35Z2HVrr4/Qp2s3wPWZtprZoTG7pD+kWaT7UyRY3QwObKsLLtyjvZKaJd9N+MT7hIG6; _grayver_=never; _tzone_=UTC+08:00; _nwcfl_=2Tb3PnQoNAswvvIYK/ETCwpGdLUl/T/L; _etime_=1666588666569; _u2cid_=60000260; _lcode_=zh_CN; loginType=WEB; _grayver_=never;
 
 feign:
   client:
     config:
       # 全局配置
       default:
-        logger-level: FULL # 日志级别
+        logger-level: BASIC # 日志级别
   # Feign Apache HttpClient 配置项，对应 FeignHttpClientProperties 配置属性类
   httpclient:
     enabled: true # 是否开启。默认为 true
@@ -19,4 +19,4 @@ feign:
 
 logging:
   level:
-    com.example.demo2.feign.HrQueryCenter: debug
+    com.example.demo2.feign: debug
