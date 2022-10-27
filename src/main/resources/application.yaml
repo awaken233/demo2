@@ -3,7 +3,7 @@ spring:
     name: demo2
 
 custom:
-  cookie: _u2token_=be5c704fe9f44bb6899c6a70d876b9c4; _u2eid_=4; _u2comtype_=0; _u2uid_=1000433633; _nwcf_=gM6HTFS8JXUNVumkN70PdWRx4uXHBpEm6uS1nbyS1RCQV6ZwCgbM0kTepc36FHKVXcr+Ix29rGhb8zWsqi2u25Dt577WBe1QiotbEscGx9c4yz6XV37PODDK/8KDW35Z2HVrr4/Qp2s3wPWZtprZoTG7pD+kWaT7UyRY3QwObKsLLtyjvZKaJd9N+MT7hIG6; _grayver_=never; _tzone_=UTC+08:00; _nwcfl_=2Tb3PnQoNAswvvIYK/ETCwpGdLUl/T/L; _etime_=1666588666569; _u2cid_=60000260; _lcode_=zh_CN; loginType=WEB; _grayver_=never;
+  cookie: _grayver_=always; _u2token_=c55841b59d8b4206a4bd41869924a953; _u2eid_=4; _u2comtype_=0; _u2uid_=1000433633; _nwcf_=gM6HTFS8JXUNVumkN70PdWRx4uXHBpEmIjphSICnkQHGUftUCQzXtJrWqmo3Lki0v14J3jTY+z5FQRCWrDKew9T3cDUzUy4wAmW1q53coLOKOGdyFsut4XY2rqm1NY1qybPJ8IrMTqtq9S+3iB8sws6Xzt+4/rXvq1Ht4bqCE+SwDS4RgmzOsIeeEo71hVsxavD7B6bDUE8=; _grayver_=never; _tzone_=UTC+08:00; _nwcfl_=li4/svxTXKsIhsADXDZ+KApGdLUl/T/L; _etime_=1666851329676; _u2cid_=60000260; _lcode_=zh_CN; loginType=WEB; _grayver_=never;
 
 feign:
   client:

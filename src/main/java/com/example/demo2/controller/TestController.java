@@ -1,8 +1,6 @@
 package com.example.demo2.controller;
 
-import com.example.demo2.config.CustomProperties;
 import com.example.demo2.feign.HrQueryCenter;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.Lists;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -31,30 +29,12 @@ public class TestController {
     @Resource(name = "asyncPool")
     private ThreadPoolTaskExecutor executor;
 
-    @Autowired
-    private ObjectMapper objectMapper;
-
-    @Autowired
-    private CustomProperties customProperties;
-
     @PostMapping("/test")
-    public Map<String, Object> test() {
-//        for (int i = 0; i < 10; i++) {
-//            CompletableFuture.runAsync(() -> {
-//                Map<String, Object> info = hrQueryCenter.info();
-//            }, executor);
-//        }
-        Map<String, Object> info = hrQueryCenter.info();
-        return null;
-    }
-
-    @PostMapping("/test1")
     @SneakyThrows
-    public Map<String, Object> test1() {
-        for (int i = 0; i < 10; i++) {
+    public Map<String, Object> test() {
+        for (int i = 0; i < 3; i++) {
             CompletableFuture.runAsync(this::findPosition, executor);
         }
-//        return findPosition();
         return Collections.emptyMap();
     }
 
