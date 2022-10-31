@@ -1,22 +1,20 @@
 spring:
   application:
     name: demo2
-
-custom:
-  cookie: _grayver_=always; _u2token_=c55841b59d8b4206a4bd41869924a953; _u2eid_=4; _u2comtype_=0; _u2uid_=1000433633; _nwcf_=gM6HTFS8JXUNVumkN70PdWRx4uXHBpEmIjphSICnkQHGUftUCQzXtJrWqmo3Lki0v14J3jTY+z5FQRCWrDKew9T3cDUzUy4wAmW1q53coLOKOGdyFsut4XY2rqm1NY1qybPJ8IrMTqtq9S+3iB8sws6Xzt+4/rXvq1Ht4bqCE+SwDS4RgmzOsIeeEo71hVsxavD7B6bDUE8=; _grayver_=never; _tzone_=UTC+08:00; _nwcfl_=li4/svxTXKsIhsADXDZ+KApGdLUl/T/L; _etime_=1666851329676; _u2cid_=60000260; _lcode_=zh_CN; loginType=WEB; _grayver_=never;
-
-feign:
-  client:
-    config:
-      # 全局配置
-      default:
-        logger-level: BASIC # 日志级别
-  # Feign Apache HttpClient 配置项，对应 FeignHttpClientProperties 配置属性类
-  httpclient:
-    enabled: true # 是否开启。默认为 true
-    max-connections: 200 # 最大连接数。默认为 200
-    max-connections-per-route: 50 # 每个路由的最大连接数。默认为 50。router = host + port
-
-logging:
-  level:
-    com.example.demo2.feign: debug
+  # 对应 RedisProperties 类
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: # Redis 服务器密码，默认为空。生产中，一定要设置 Redis 密码！
+    database: 0 # Redis 数据库号，默认为 0 。
+    timeout: 0 # Redis 连接超时时间，单位：毫秒。
+    # 对应 RedisProperties.Jedis 内部类
+    jedis:
+      pool:
+        max-active: 8 # 连接池最大连接数，默认为 8 。使用负数表示没有限制。
+        max-idle: 8 # 默认连接数最小空闲的连接数，默认为 8 。使用负数表示没有限制。
+        min-idle: 0 # 默认连接池最小空闲的连接数，默认为 0 。允许设置 0 和 正数。
+        max-wait: -1 # 连接池最大阻塞等待时间，单位：毫秒。默认为 -1 ，表示不限制。
+  # cache 缓存配置内容
+  cache:
+    type: redis

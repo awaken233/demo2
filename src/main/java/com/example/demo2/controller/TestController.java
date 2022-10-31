@@ -1,19 +1,14 @@
 package com.example.demo2.controller;
 
-import com.example.demo2.feign.HrQueryCenter;
-import com.google.common.collect.Lists;
+import com.example.demo2.service.HrWorkUnitService;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.CompletableFuture;
 
 /**
  * @author wlei3
@@ -24,28 +19,12 @@ import java.util.concurrent.CompletableFuture;
 public class TestController {
 
     @Autowired
-    private HrQueryCenter hrQueryCenter;
-
-    @Resource(name = "asyncPool")
-    private ThreadPoolTaskExecutor executor;
+    private HrWorkUnitService hrWorkUnitService;
 
     @PostMapping("/test")
     @SneakyThrows
     public Map<String, Object> test() {
-        for (int i = 0; i < 3; i++) {
-            CompletableFuture.runAsync(this::findPosition, executor);
-        }
-        return Collections.emptyMap();
-    }
-
-    @SneakyThrows
-    private Map findPosition() {
-        Map<String, Object> param = new HashMap<>();
-        param.put("dids", Lists.newArrayList(2944,42292,61178));
-        Map resp = hrQueryCenter.findPositions(param);
-        if ((Integer) resp.get("code") != 0) {
-            log.info("find position error {}", resp);
-        }
-        return resp;
+        return hrWorkUnitService.findParentToRootDid(60000004L, true,
+            Collections.singletonList("762"), Collections.singletonList("1"));
     }
 }
