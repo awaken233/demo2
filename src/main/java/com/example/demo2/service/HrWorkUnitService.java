@@ -8,7 +8,6 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -19,10 +18,16 @@ import java.util.Map;
 @Service
 public class HrWorkUnitService {
 
+    /**
+     * 测试 @Cacheable key on multiple method arguments
+     * hr:core:findParentToRootDid::SimpleKey [60000004,[expired, effective]]
+     * @param cid
+     * @param workUnitStatusList
+     * @return
+     */
     @SneakyThrows
-    @Cacheable(value = CacheNameConsts.WORK_UNIT_V2, key = "#cid")
-    public Map<String, Object> findParentToRootDid(Long cid, Boolean containOwner,
-        List<String> dids, Collection<String> workUnitStatusList) {
+    @Cacheable(value = CacheNameConsts.WORK_UNIT_V2)
+    public Map<String, Object> findParentToRootDid(Long cid, Collection<String> workUnitStatusList) {
         Thread.sleep(3000);
         return ImmutableMap.of("1", "1");
     }
