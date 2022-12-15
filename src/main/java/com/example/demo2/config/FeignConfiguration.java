@@ -18,6 +18,7 @@ public class FeignConfiguration {
     public RequestInterceptor requestInterceptor() {
         return tpl -> {
             tpl.header("cookie", customProperties.getCookie());
+            tpl.header("X-Auth-User", "cid=60000260;");
         };
     }
 

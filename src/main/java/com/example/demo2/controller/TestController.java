@@ -32,7 +32,7 @@ public class TestController {
     @PostMapping("/test")
     @SneakyThrows
     public Map<String, Object> test() {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 100; i++) {
             CompletableFuture.runAsync(this::findPosition, executor);
         }
         return Collections.emptyMap();
@@ -46,6 +46,7 @@ public class TestController {
         if ((Integer) resp.get("code") != 0) {
             log.info("find position error {}", resp);
         }
+        log.info("find position success {}", resp.get("data"));
         return resp;
     }
 }

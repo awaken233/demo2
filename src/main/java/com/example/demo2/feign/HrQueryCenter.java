@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Map;
 
-@FeignClient(name = "hr-query-center", url = "https://yuhrec-1.woqu365.com/forward_webfront/api/hr-query-center")
+@FeignClient(name = "hr-query-center", url = "localhost:8082")
 public interface HrQueryCenter {
 
-    @PostMapping("/position/findPositions")
+    @PostMapping("/debug/debug")
     Map<String, Object> findPositions(Map<String, Object> param);
 
 }
