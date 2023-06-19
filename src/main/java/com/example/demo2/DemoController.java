@@ -1,6 +1,7 @@
 package com.example.demo2;
 
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     @PostMapping("test")
-    public Base test() {
-        return Sub.builder().id(1).sid(2).build();
+    public Base test(@RequestBody Req req) {
+        return Sub.builder().id(1).sid(2).req(req).build();
     }
 }
