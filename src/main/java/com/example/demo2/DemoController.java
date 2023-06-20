@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     @PostMapping("test")
-    public Base test(@RequestBody Req req) {
-        return Sub.builder().id(1).sid(2).req(req).build();
+    public Base test(@RequestBody Base base) {
+        return base;
     }
 }

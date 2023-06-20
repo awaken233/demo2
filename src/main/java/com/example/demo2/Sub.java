@@ -15,5 +15,4 @@ public class Sub extends Base{
 
     private Integer sid;
 
-    private Req req;
 }
