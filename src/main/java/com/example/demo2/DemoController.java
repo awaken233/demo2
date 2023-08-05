@@ -1,10 +1,9 @@
 package com.example.demo2;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 
 /**
  * @author wanglei
@@ -13,6 +12,10 @@ import javax.validation.Valid;
 @RestController
 public class DemoController {
 
+    @GetMapping("test2")
+    public Integer test2(@Valid @NotNull @RequestParam(value = "id", required = false) Integer id, Integer id2) {
+        return id2;
+    }
     @PostMapping("test")
     public Base test(@Valid @RequestBody Base base) {
         return base;
