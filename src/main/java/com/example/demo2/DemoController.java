@@ -17,4 +17,11 @@ public class DemoController {
     public Sub test(@Valid @RequestBody Sub base) {
         return base;
     }
+
+
+    public static void main(String[] args) {
+        String str = "  Hello World!  ";
+        String trimmedStr = str.replaceAll(" +$", "");
+        System.out.println(trimmedStr);  // 输出：  Hello World!
+    }
 }
