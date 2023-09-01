@@ -1,4 +1,4 @@
-package com.example.demo2;
+package com.example.demo2.config;
 
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

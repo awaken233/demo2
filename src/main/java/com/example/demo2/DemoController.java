@@ -14,14 +14,8 @@ import javax.validation.Valid;
 public class DemoController {
 
     @PostMapping("test")
-    public Sub test(@Valid @RequestBody Sub base) {
+    public Base test(@Valid @RequestBody Base base) {
         return base;
     }
 
-
-    public static void main(String[] args) {
-        String str = "  Hello World!  ";
-        String trimmedStr = str.replaceAll(" +$", "");
-        System.out.println(trimmedStr);  // 输出：  Hello World!
-    }
 }
