@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: demo2
+
+feign:
+  client:
+    config:
+      # 全局配置
+      default:
+        logger-level: basic # 日志级别
+  # Feign Apache HttpClient 配置项，对应 FeignHttpClientProperties 配置属性类
+  httpclient:
+    enabled: true # 是否开启。默认为 true
+    max-connections: 200 # 最大连接数。默认为 200
+    max-connections-per-route: 50 # 每个路由的最大连接数。默认为 50。router = host + port
+
+logging:
+  level:
+    com.example.demo2.feign: debug
+
+
