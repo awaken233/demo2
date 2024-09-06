@@ -13,13 +13,11 @@ import java.lang.reflect.Method;
 @Component
 public class LogAop {
 
-    @Around("execution(* com.example.demo2.service.*.*(..))")
+    @Around("execution(* com.example.demo2.api.*.*(..))")
     public Object log(ProceedingJoinPoint joinPoint) throws Throwable {
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         Method method = methodSignature.getMethod();
         Object ret = joinPoint.proceed();
-        //执行完目标方法之后打印
-        System.out.println("after execute method:" + method.getName());
-        return ret;
+        return null;
     }
 }
