@@ -12,6 +12,6 @@ import java.util.List;
 public interface Demo1EntityRecordMapper extends BaseMapper<Demo1Entity> {
 
     default List<Demo1Entity> getByName(Integer name) {
-        return selectList(Wrappers.<Demo1Entity>lambdaQuery().eq(Demo1Entity::getName, name));
+        return selectList(Wrappers.<Demo1Entity>lambdaQuery().eq(Demo1Entity::getValue, name));
     }
 }
