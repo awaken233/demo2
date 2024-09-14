@@ -17,7 +17,7 @@ public class Demo1Entity {
     @TableId
     private Long id;
 
-    @TableField("name")
+    @TableField("value")
     private String value;
 
 }

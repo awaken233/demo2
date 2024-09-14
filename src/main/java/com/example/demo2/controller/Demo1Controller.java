@@ -1,6 +1,5 @@
 package com.example.demo2.controller;
 
-import com.example.demo2.entity.Demo1Entity;
 import com.example.demo2.service.Demo1EntityRecordService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,15 +19,13 @@ public class Demo1Controller {
     private Demo1EntityRecordService entityRecordService;
 
     @RequestMapping("get1")
-    public Demo1Entity get1() {
-        Demo1Entity byId = entityRecordService.getById(1);
-        return byId;
+    public void get1() {
+        entityRecordService.test1();
     }
 
     @RequestMapping("get2")
-    Demo1Entity get2() {
-        Demo1Entity byId = entityRecordService.getById(1);
-        return byId;
+    public void  get2() {
+        entityRecordService.publicMethod();
     }
 }
 
