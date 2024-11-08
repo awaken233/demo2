@@ -17,9 +17,9 @@ public class ThreadPoolConfig {
     public ThreadPoolTaskExecutor webUserPool() {
         ThreadPoolTaskExecutor pool = new ThreadPoolTaskExecutor();
         // 线程池维护线程的最少数量
-        pool.setCorePoolSize(100);
+        pool.setCorePoolSize(20);
         // 线程池维护线程的最大数量
-        pool.setMaxPoolSize(200);
+        pool.setMaxPoolSize(20);
         // 队列最大长度
         pool.setQueueCapacity(400);
         // 线程池维护线程所允许的空闲时间，默认为60s
