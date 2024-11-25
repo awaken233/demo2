@@ -20,4 +20,7 @@ public class Demo1Entity {
     @TableField("value")
     private String value;
 
+    @TableField("weight")
+    private Integer weight;
+
 }
