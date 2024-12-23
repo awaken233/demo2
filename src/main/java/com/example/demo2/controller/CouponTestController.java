@@ -1,10 +1,10 @@
 package com.example.demo2.controller;
 
+import com.example.demo2.config.TokenConfig;
 import com.example.demo2.feign.UserCouponFeignClient;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -29,38 +28,39 @@ public class CouponTestController {
     @Autowired
     private UserCouponFeignClient userCouponFeignClient;
 
-    @Value("${test.tokens}")
-    private List<String> tokens;
+    @Autowired
+    private TokenConfig tokenConfig;
 
     @PostMapping("/test")
     @SneakyThrows
     public void testCoupon() {
-        if (tokens == null || tokens.isEmpty()) {
+        if (tokenConfig.getTokens() == null || tokenConfig.getTokens().isEmpty()) {
             log.error("No tokens configured");
             return;
         }
         
-        for (String token : tokens) {
+        for (String token : tokenConfig.getTokens()) {
             executor.execute(() -> receiveCoupon(token));
         }
     }
 
     private Map receiveCoupon(String token) {
         Map<String, Object> param = new HashMap<>();
-        param.put("couponId", "257");
-        param.put("cbId", "257");
+        param.put("couponId", "258");
+        param.put("cbId", "258");
         
         try {
             Map resp = userCouponFeignClient.receiveCoupon(token, param);
-            if ((Integer) resp.get("code") != 0) {
-                log.info("receiveCoupon error, token: {}, response: {}", token, resp);
+            if ((Integer) resp.get("code") != 200) {
+                log.info("receiveCoupon error, response: {}", resp);
                 return resp;
             }
-            log.info("receiveCoupon success, token: {}, response: {}", token, resp);
+            log.info("receiveCoupon success, response: {}", resp);
             return resp;
         } catch (Exception e) {
-            log.error("receiveCoupon exception, token: {}", token, e);
+            log.error("receiveCoupon exception", e);
             throw e;
         }
     }
-} 
+}
+
