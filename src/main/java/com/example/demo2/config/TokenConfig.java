@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-@ConfigurationProperties(prefix = "test1")
+@ConfigurationProperties(prefix = "test")
 public class TokenConfig {
     private List<String> tokens;
 
