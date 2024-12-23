@@ -1,7 +1,5 @@
 package com.example.demo2.config;
 
-import feign.RequestInterceptor;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -10,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FeignConfiguration {
 
-    @Bean
-    public RequestInterceptor requestInterceptor() {
-        return tpl -> {
-        };
-    }
+//    @Bean
+//    public RequestInterceptor requestInterceptor() {
+//        return tpl -> {
+//        };
+//    }
 
 }
