@@ -1,0 +1,7 @@
+sample:
+  value: sample
+  list:
+    values:
+      - sample1
+      - sample2
+      - sample3
