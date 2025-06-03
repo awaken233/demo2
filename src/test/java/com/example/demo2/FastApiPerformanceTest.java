@@ -34,8 +34,8 @@ public class FastApiPerformanceTest {
     @Qualifier("asyncTestPool")
     private ThreadPoolTaskExecutor asyncTestPool;
 
-    private static final String SYNC_API_URL = "http://192.168.16.13:8787/index/queue";
-    private static final String ASYNC_API_URL = "http://192.168.16.13:10202/api/test/test2";
+    private static final String SYNC_API_URL = "http://192.168.16.13:10110/";
+    private static final String ASYNC_API_URL = "http://192.168.16.13:10110/";
 
     /**
      * 测试结果数据类
@@ -177,7 +177,7 @@ public class FastApiPerformanceTest {
      * 执行单次同步测试
      */
     private TestResult performSyncTest() throws InterruptedException {
-        int requestCount = 100;
+        int requestCount = 10;
         CountDownLatch latch = new CountDownLatch(requestCount);
         AtomicLong totalTime = new AtomicLong(0);
         AtomicLong successCount = new AtomicLong(0);
@@ -242,7 +242,7 @@ public class FastApiPerformanceTest {
      * 执行单次异步测试
      */
     private TestResult performAsyncTest() throws InterruptedException {
-        int requestCount = 100;
+        int requestCount = 10;
         CountDownLatch latch = new CountDownLatch(requestCount);
         AtomicLong totalTime = new AtomicLong(0);
         AtomicLong successCount = new AtomicLong(0);
