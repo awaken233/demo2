@@ -3,12 +3,14 @@ package com.example.demo2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.scheduling.annotation.EnableAsync;
 
 /**
  * @author wlei3
  */
 @SpringBootApplication
 @EnableFeignClients
+@EnableAsync
 public class Demo2Application {
 
     public static void main(String[] args) {
