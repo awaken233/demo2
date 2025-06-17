@@ -88,7 +88,7 @@ public class ThreadPoolConfig {
     @Bean(name = "asyncPool")
     public ThreadPoolTaskExecutor webUserPool() {
         ThreadPoolTaskExecutor pool = new ThreadPoolTaskExecutor();
-        // 线程池维护线程的最少数量1
+        // 线程池维护线程的最少数量2
         pool.setCorePoolSize(100);
         // 线程池维护线程的最大数量
         pool.setMaxPoolSize(100);
