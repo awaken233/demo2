@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: aws-s3-demo
+
+aws:
+  s3:
+    access-key: ${AWS_ACCESS_KEY:your-access-key}
+    secret-key: ${AWS_SECRET_KEY:your-secret-key}
+    region: ${AWS_REGION:us-east-1}
+    bucket: ${AWS_S3_BUCKET:demo-bucket}
+    endpoint: ${AWS_S3_ENDPOINT:}  # 可选，用于MinIO等
+    upload:
+      max-file-size: 100MB
+      allowed-types: jpg,jpeg,png,gif,pdf,txt,doc,docx
+    download:
+      url-expiration: PT1H  # 1小时
+    client:
+      retry:
+        max-attempts: 3
+        backoff-delay: 1000
+
+logging:
+  level:
+    com.example.demo2: DEBUG
+    software.amazon.awssdk: INFO
