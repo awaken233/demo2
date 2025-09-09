@@ -1,6 +1,20 @@
 spring:
   application:
     name: demo2
+  
+  # MySQL数据源配置
+  datasource:
+    url: jdbc:mysql://///te?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  
   # 对应 RedisProperties 类
   redis:
     host: 127.0.0.1
@@ -15,6 +29,7 @@ spring:
         max-idle: 8 # 默认连接数最小空闲的连接数，默认为 8 。使用负数表示没有限制。
         min-idle: 0 # 默认连接池最小空闲的连接数，默认为 0 。允许设置 0 和 正数。
         max-wait: -1 # 连接池最大阻塞等待时间，单位：毫秒。默认为 -1 ，表示不限制。
+  
   # cache 缓存配置内容
   cache:
     type: redis
