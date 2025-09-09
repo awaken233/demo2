@@ -1,7 +1,5 @@
 package com.example.demo2.controller;
 
-import com.example.demo2.component.One;
-import com.example.demo2.service.HrWorkUnitService;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +22,6 @@ import java.util.Set;
 @RestController
 public class TestController {
 
-    @Autowired
-    private HrWorkUnitService hrWorkUnitService;
 
     @Resource(name = "redisTemplate")
     private ValueOperations<String, String> valueOperations;
@@ -34,8 +30,6 @@ public class TestController {
     private RedisTemplate<String, Object> redisTemplate;
 
 
-    @Autowired
-    private One one;
 
     @PostMapping("/test")
     @SneakyThrows
