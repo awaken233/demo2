@@ -6,6 +6,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
+import java.util.HashMap;
 
 import java.util.Map;
 
@@ -37,7 +38,8 @@ public class RedisTransactionService {
             log.info("Redis操作完成，准备抛出异常触发回滚");
             
             // 故意抛出异常来触发事务回滚
-            throw new RuntimeException("模拟业务异常，触发事务回滚");
+            // throw new RuntimeException("模拟业务异常，触发事务回滚");
+            return new HashMap<>();
             
         } catch (Exception e) {
             log.error("Redis事务执行异常，将回滚");
