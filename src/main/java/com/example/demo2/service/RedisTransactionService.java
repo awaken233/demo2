@@ -35,7 +35,7 @@ public class RedisTransactionService {
             redisTemplate.opsForValue().set("tx:rollback:key2", "value2");
             redisTemplate.opsForHash().put("tx:rollback:hash", "field1", "hashValue1");
             
-            log.info("Redis操作完成，准备抛出异常触发回滚");
+            redisTemplate.exec();
             
             // 故意抛出异常来触发事务回滚
             // throw new RuntimeException("模拟业务异常，触发事务回滚");
