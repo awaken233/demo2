@@ -1,60 +1,12 @@
-### Redis事务测试文件
+### Redis事务回滚测试文件
 ### 确保Redis服务已启动 (localhost:6379)
 ### 确保Spring Boot应用已启动 (localhost:8080)
 
-### 1. 测试Redis事务成功提交
-POST http://localhost:8080/redis/tx/success
-Content-Type: application/json
-
-###
-
-### 2. 测试Redis事务回滚
+### 测试Redis事务回滚
 POST http://localhost:8080/redis/tx/rollback
 Content-Type: application/json
 
 ###
 
-### 3. 测试Redis事务条件回滚 - 不回滚
-POST http://localhost:8080/redis/tx/conditional?shouldRollback=false
-Content-Type: application/json
-
-###
-
-### 4. 测试Redis事务条件回滚 - 回滚
-POST http://localhost:8080/redis/tx/conditional?shouldRollback=true
-Content-Type: application/json
-
-###
-
-### 5. 测试StringRedisTemplate事务
-POST http://localhost:8080/redis/tx/string
-Content-Type: application/json
-
-###
-
-### 6. 检查Redis中的数据
-GET http://localhost:8080/redis/data
-Content-Type: application/json
-
-###
-
-### 7. 清理测试数据
-DELETE http://localhost:8080/redis/cleanup
-Content-Type: application/json
-
-###
-
-### 8. 再次检查Redis中的数据（应该为空）
-GET http://localhost:8080/redis/data
-Content-Type: application/json
-
-###
-
-### 测试流程说明：
-### 1. 先执行成功事务测试，检查数据是否正确写入
-### 2. 执行回滚事务测试，验证异常时数据不会写入
-### 3. 执行条件回滚测试，验证不同条件下的行为
-### 4. 执行StringRedisTemplate事务测试
-### 5. 检查所有数据状态
-### 6. 清理测试数据
-### 7. 验证清理结果
+### 测试说明：
+### 执行回滚事务测试，验证异常时数据不会写入Redis
