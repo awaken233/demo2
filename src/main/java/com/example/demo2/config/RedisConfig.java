@@ -35,7 +35,7 @@ public class RedisConfig {
         template.setHashValueSerializer(new GenericJackson2JsonRedisSerializer());
         
         // 启用事务支持
-        template.setEnableTransactionSupport(true);
+        // template.setEnableTransactionSupport(true);
         
         template.afterPropertiesSet();
         return template;
