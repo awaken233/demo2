@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 import java.util.Map;
 
@@ -28,6 +29,7 @@ public class RedisTransactionService {
         try {
             // 执行一些Redis操作
             redisTemplate.setEnableTransactionSupport(true);
+            redisTemplate.multi();
             redisTemplate.opsForValue().set("tx:rollback:key1", "value1");
             redisTemplate.opsForValue().set("tx:rollback:key2", "value2");
             redisTemplate.opsForHash().put("tx:rollback:hash", "field1", "hashValue1");
@@ -38,8 +40,11 @@ public class RedisTransactionService {
             throw new RuntimeException("模拟业务异常，触发事务回滚");
             
         } catch (Exception e) {
-            log.error("Redis事务执行异常，将回滚", e);
+            log.error("Redis事务执行异常，将回滚");
+            redisTemplate.discard();
             throw e;
+        } finally {
+            TransactionSynchronizationManager.unbindResource(redisTemplate.getConnectionFactory());
         }
     }
 }
