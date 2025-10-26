@@ -55,6 +55,20 @@
       <artifactId>lombok</artifactId>
     </dependency>
 
+    <!-- TK MyBatis -->
+    <dependency>
+      <groupId>tk.mybatis</groupId>
+      <artifactId>mapper-spring-boot-starter</artifactId>
+      <version>2.1.5</version>
+    </dependency>
+
+    <!-- MySQL Driver -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.28</version>
+    </dependency>
+
   </dependencies>
 
   <build>
